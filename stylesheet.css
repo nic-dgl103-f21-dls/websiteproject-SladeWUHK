@@ -1,0 +1,17 @@
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    background-image: url("photos/twocars.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   
+.main {
+    color:rgb(255, 255, 255);
+}
