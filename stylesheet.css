@@ -14,6 +14,7 @@ body {
    /* text color */
 .main {
     color:rgb(255, 255, 255);
+    text-align: center;
 }
 /* Navbar container */
 .navbar {
@@ -90,3 +91,30 @@ body {
 .mpvid {
   text-align: center;
 }
+
+/* Links color */
+
+a:link {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
