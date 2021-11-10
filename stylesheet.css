@@ -84,3 +84,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/*main page video fit*/
+
+.mpvid {
+  text-align: center;
+}
