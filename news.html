@@ -14,42 +14,91 @@
 
 <script src="Script"></script>
 <!--My amazing nav bar-->
-<nav>
-    <div class="navbar">
-        <a href="main.html">Home</a>
-        <a href="news.html">News</a>
-        <div class="dropdown">
-          <button class="dropbtn">+
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="news.html">News</a>
-            <a href="social.html">Socials</a>
-            <a href="gallery.html">Gallery</a>
-          </div>
-        </div>
-      </div>
-</nav>
+
 
 <body>
-<!--temp photo-->>
-<img src="photos/vsphoto.jpg" alt="Vibe Sesh" class="center">
-
-<div class="main">
- <h1>Car Meet Schedule
- </h1>
- <p>Friday - 6pm</p>
- <p>Sunday - 11am</p>
-<h1>
-    Locations
-</h1>
-<p>
-    Friday meets start at the willow point <a href="https://www.google.com/search?sxsrf=AOaemvKWF-_6RG38xprZ52V4HlwS5W8YiA:1636584708633&q=tim+hortons+campbell+river+address&ludocid=9547939989934605106&sa=X&ved=2ahUKEwjJ0bmR8Y70AhWfIjQIHURMBkoQ6BN6BAgYEAI&biw=1360&bih=635&dpr=1" target="_blank">Tim Hortons</a> upper parking lot on the gravel.
-</p>
-<p>
-    Sunday meets start in the <a href="https://www.google.com/search?sxsrf=AOaemvIeyt4uc2DMuvggMvSDzVzkdUfehw:1636584606184&q=ryan%27s+pizzeria+address&ludocid=420235662958704271&sa=X&ved=2ahUKEwi4luLg8I70AhUeJTQIHc-vAWgQ6BN6BAhyEAI&biw=1360&bih=635&dpr=1" target="_blank">Ryans Pizzeria</a> parking lot.
-</p>
+  
+  <!--photo-->>
+<img src="photos/Artboard1.png" alt="Vibe Sesh" class="center">
+  
+  <div class="wrapper">
+    
+    <nav><div class="navbar">
+      <a href="main.html">Home</a>
+      <a href="news.html">News</a>
+      <div class="dropdown">
+        <button class="dropbtn">+
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="news.html">News</a>
+          <a href="social.html">Socials</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </div></nav>
+    
+    <section>
+ <div class="meetings">
+      <h1>Regular Meets</h1>
+      <p>Saturday @ 5pm(Winter) // 9pm(Summer) Location: Dairy Queen</p>
+      <a href="https://www.google.com/maps/place/Dairy+Queen+Grill+%26+Chill/@50.0272417,-125.2498088,15z/data=!4m2!3m1!1s0x0:0xe115eefcc1f829e1?sa=X&ved=2ahUKEwiq_ryihLz0AhXVc94KHYdBBxsQ_BJ6BQigARAF" target="_blank">Directions</a>
+      <p>Wednesday @ 12pm(Winter) // 12pm(Summer) Location: Island Grind</p>
+      <a href="https://www.google.com/maps/place/The+Island+Grind+Coffee+%26+Tea/@49.9732114,-125.2448751,15z/data=!4m2!3m1!1s0x0:0x24dceb97f7528542?sa=X&ved=2ahUKEwiz48TJhLz0AhUBM94KHSf0A14Q_BJ6BAhtEAU" target="_blank">Directions</a>
+    
 </div>
+    <div class="wrapper-form">
+      <h2>Want to know when new events are happening?</h2>
+      <form method="post" action="https://learndigital.dev/programs/dgl103-form.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Ex: Patricia Smith">
+    
+        <label for="lname">Car Year, Make and Model</label>
+        <input type="text" id="lname" name="vehicle" placeholder="Ex: 2010 Kia Sorento">
+    
+        <label for="email">Email <span class="label-required">* (required)</span></label>
+        <input type="email" id="email" name="email" placeholder="Ex: pats10sorento@yahoo.com" required>
+    
+        <label for="program">Interests</label>
+        <select id="program" name="interests">
+          <option value="mods">Modifications</option>
+          <option value="meets">Meet ups</option>
+          <option value="tunes">Tuning</option>
+          <option value="all">All of the Above</option>
+        </select>
+    
+        <fieldset>
+          <legend>Select Available Days</legend>
+          <input type="radio" id="wd" name="term" value="Weekdays">
+          <label for="wd">Weekdays</label><br>
+          <input type="radio" id="we" name="term" value="Weekends">
+          <label for="we">Weekends</label><br>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Select Available Times</legend>
+            <input type="radio" id="dt" name="term" value="Daytime">
+            <label for="dt">Day Time</label><br>
+            <input type="radio" id="nt" name="term" value="Nighttime">
+            <label for="nt">Night Time</label><br>
+            </fieldset>
+    
+        <label for="message">Tell us more!</label>
+        <textarea id="message" name="message" placeholder="Tell us more :)" style="height:200px"></textarea>
+    
+        <div class="wrapper-button">
+          <input type="reset" value="Reset">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+    
+    </section>
+  
+  </div>
+  
+  <footer>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment.</footer>
 
 </body>
+
 </html>

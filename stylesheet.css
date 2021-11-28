@@ -6,14 +6,21 @@
 }
 /* temp background */
 body {
-    background-image: url("photos/twocars.jpg");
-    background-color: #cccccc;
+    background-image: url("photos/Brandons\ Edit.jpg");
+    background-color: #505050;
     background-size: cover;
     background-repeat: no-repeat;
    }
    /* text color */
-.main {
-    color:rgb(255, 255, 255);
+
+   footer {
+    color: rgb(97, 97, 97);
+    size:1em;
+    position: relative;
+   }
+
+   .main {
+    color:white;
     text-align: center;
 }
 /* Navbar container */
@@ -21,6 +28,7 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  
 }
 
 /* Links inside the navbar */
@@ -88,10 +96,20 @@ body {
 
 /*main page video fit*/
 
-.mpvid {
-  text-align: center;
-}
 
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.video-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /* Links color */
 
 a:link {
@@ -118,3 +136,167 @@ a:active {
   text-decoration: underline;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body {
+  font-family: sans-serif;
+}
+
+/* ===============
+   BUTTONS
+   =============== */
+
+input[type="reset"] {
+  color: #333;
+  padding: 12px 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+/* ===============
+   STRUCTURE
+   =============== */
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: rgb(158, 158, 158);
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
+   FORM CONTROLS
+   =============== */
+
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+
+.label-required {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.meetings {
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #bbbbbb;
+}
+
+tbody tr:hover {
+  background-color: rgb(112, 112, 112);
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+.gal {
+  text-align: center;
+  
+}
